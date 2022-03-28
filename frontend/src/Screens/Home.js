@@ -19,13 +19,8 @@ export default function Home(props){
 
 
     return (<>
-        <div className="search">
-        <Route
-          render={({ history }) => (
-            <SearchBox history={history}></SearchBox>
-          )}
-        ></Route>
-        </div>
+       <div>
+</div>
         <div className = "container">
           {
               Courses.map((course) =>

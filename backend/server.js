@@ -100,8 +100,8 @@ app.post('/lectureupload',upload.fields([{
   try{
     
     const uploadModel= new Video({
-      LectureTopic:req.body.LectureTopic,
-      CourseCode:req.body.CourseCode,
+       LectureTopic:req.body.LectureTopic,
+       CourseCode:req.body.CourseCode,
        thumbnail:`/${req.files.thumbnail[0].filename}`,
        video:`/${req.files.video[0].filename}`,
        Notes:`/${req.files.Notes[0].filename}`,

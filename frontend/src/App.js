@@ -84,6 +84,7 @@ function App() {
        </div>
      </header>
      <main className="main">
+       
        <Route path="/" component={Home} exact={true}/>
        <Route path="/upload" component={Upload}/>
        <Route path='/video_player/:id' component={videoPlayer}/>
